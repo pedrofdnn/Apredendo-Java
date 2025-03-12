@@ -1,4 +1,4 @@
-package Ex_da_Faculdade;
+package Ex_da_Faculdade.Classes_e_encapsulamentos;
 
 import java.util.Random;
 
@@ -30,6 +30,8 @@ public class Pessoa {
 
     public static void main(String args[]) {
         Pessoa p1 = new Pessoa("Pedro Fernandes");
-        System.out.println("Pessoa 1: " + p1.getNome());
+        System.out.println("Pessoa 1: " + p1.getNome() + " - Codigo Identificador: " + p1.getCodigoIdentificador());
+        Pessoa p2 = new Pessoa("Maria Fernandes");
+        System.out.println("Pessoa 2: " + p2.getNome() + " - Codigo Identificador: " + p2.getCodigoIdentificador());
     }
 }
